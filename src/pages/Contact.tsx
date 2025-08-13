@@ -242,16 +242,22 @@ export default function Contact() {
             </a>
           </div>
           <div className="bg-stone-200 rounded-2xl h-96 flex items-center justify-center relative overflow-hidden">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23040.84842!2d20.8742334!3d44.0325788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47572155400bb7b9%3A0x720f0e82bab8e50d!2sWoodland%20Resort!5e0!3m2!1sen!2s!4v1642000000000!5m2!1sen!2s"
-              width="100%"
-              height="100%"
-              style={{ border: 0, borderRadius: '1rem' }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Woodland Resort Location"
-            ></iframe>
+            <div className="w-full h-full bg-gradient-to-br from-green-100 to-green-200 rounded-2xl flex items-center justify-center">
+              <div className="text-center p-8">
+                <MapPin className="h-16 w-16 text-green-600 mx-auto mb-4" />
+                <h3 className="text-2xl font-bold text-stone-900 mb-4">Woodland Resort</h3>
+                <p className="text-stone-600 mb-6">Kragujevac, Serbia</p>
+                <a 
+                  href="https://www.google.com/maps/place/Woodland+Resort/@44.0325788,20.8742334,13z/data=!4m9!3m8!1s0x47572155400bb7b9:0x720f0e82bab8e50d!5m2!4m1!1i2!8m2!3d44.0325788!4d20.8742334!16s%2Fg%2F11b6j021pb?entry=ttu&g_ep=EgoyMDI1MDgxMS4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200"
+                >
+                  <MapPin className="h-5 w-5 mr-2" />
+                  Open in Google Maps
+                </a>
+              </div>
+            </div>
             <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-lg p-3 shadow-lg">
               <a 
                 href="https://www.google.com/maps/place/Woodland+Resort/@44.0325788,20.8742334,13z/data=!4m9!3m8!1s0x47572155400bb7b9:0x720f0e82bab8e50d!5m2!4m1!1i2!8m2!3d44.0325788!4d20.8742334!16s%2Fg%2F11b6j021pb?entry=ttu&g_ep=EgoyMDI1MDgxMS4wIKXMDSoASAFQAw%3D%3D"
