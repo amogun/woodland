@@ -44,7 +44,14 @@ export default function Footer() {
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-resort-gold" />
-                <span>Kragujevac, Serbia</span>
+                <a 
+                  href="https://www.google.com/maps/place/Woodland+Resort/@44.0325788,20.8742334,13z/data=!4m9!3m8!1s0x47572155400bb7b9:0x720f0e82bab8e50d!5m2!4m1!1i2!8m2!3d44.0325788!4d20.8742334!16s%2Fg%2F11b6j021pb?entry=ttu&g_ep=EgoyMDI1MDgxMS4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-resort-white transition-colors"
+                >
+                  Kragujevac, Serbia
+                </a>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-resort-gold" />

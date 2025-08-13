@@ -31,9 +31,14 @@ function HeroSection() {
             <button className="w-full sm:w-auto bg-resort-gold hover:bg-resort-gold/90 text-resort-white font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-200 transform hover:scale-105 shadow-lg">
               Book Your Stay
             </button>
-            <button className="w-full sm:w-auto border-2 border-resort-white text-resort-white hover:bg-resort-white hover:text-resort-forest font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-200">
-              Explore Resort
-            </button>
+            <a 
+              href="https://www.google.com/maps/place/Woodland+Resort/@44.0325788,20.8742334,13z/data=!4m9!3m8!1s0x47572155400bb7b9:0x720f0e82bab8e50d!5m2!4m1!1i2!8m2!3d44.0325788!4d20.8742334!16s%2Fg%2F11b6j021pb?entry=ttu&g_ep=EgoyMDI1MDgxMS4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto border-2 border-resort-white text-resort-white hover:bg-resort-white hover:text-resort-forest font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-200 inline-block text-center"
+            >
+              Find Us on Map
+            </a>
           </div>
         </div>
       </div>
